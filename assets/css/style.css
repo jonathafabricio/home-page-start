@@ -109,7 +109,7 @@ main {
 }
 
 #foto {
-    background-image: url('/assets/images/bg-principal.png');
+    background-image: url('../images/bg-principal.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
