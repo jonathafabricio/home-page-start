@@ -18,7 +18,7 @@ body {
     width: 50%;
     height: 100vh;
     border: 1px solid red;
-    background-image: url('/assets/images/bg-login.jpg');
+    background-image: url('../images/bg-login.jpg');
     background-size: cover;
     filter: grayscale(100%);
     padding: 40px;
