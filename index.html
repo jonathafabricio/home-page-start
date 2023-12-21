@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsividade.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800;900&display=swap"
@@ -13,7 +14,7 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="nav-original">
         <div id="opcoes-box">
             <h1>Logo</h1>
             <div id="opcoes-nav">
@@ -27,6 +28,23 @@
         <div id="nav-botoes">
             <a href="login.html" class="botoes">Login</a>
             <a href="" class="botoes" id="register-button">Register</a>
+        </div>
+    </nav>
+
+    <nav class="nav-telas-menores">
+        <div class="nav-top">
+            <h1>Logo</h1>
+            <div class="nav-botoes-top">
+                <a href="login.html" class="botoes">Login</a>
+                <a href="" class="botoes" id="register-button">Register</a>
+            </div>
+        </div>
+
+        <div class="nav-bottom">
+            <a href="">Features</a>
+            <a href="">Company</a>
+            <a href="">Careers</a>
+            <a href="">About</a>
         </div>
     </nav>
 
